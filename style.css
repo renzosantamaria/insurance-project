@@ -76,7 +76,7 @@ h3{
 
 }
 .wrapper1_left .family{
-    height: 360px;
+    height: 320px;
     position: absolute;
     bottom: 0;
     right: 8px;
@@ -94,6 +94,10 @@ h3{
     font-weight: bold;
     text-transform: uppercase;
 }
+
+.button_join_now:hover{
+    cursor: pointer;
+} 
 
 .button_join_now a{
     text-decoration: none;

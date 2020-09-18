@@ -95,6 +95,11 @@ h3{
     text-transform: uppercase;
 }
 
+.button_join_now a{
+    text-decoration: none;
+    color: #000000;
+}
+
 .wrapper1_right{
     display: grid;
     grid-template-columns: 1fr;

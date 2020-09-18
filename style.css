@@ -61,7 +61,8 @@ h3{
 .wrapper1_left{
     background-color: #C7DDEA;
     position: relative;
-    padding: 5% 20%;
+    padding: 5% 15%;
+}
 }
 
 .wrapper1_left h1{
@@ -76,7 +77,7 @@ h3{
 
 }
 .wrapper1_left .family{
-    height: 320px;
+    height: 50%;
     position: absolute;
     bottom: 0;
     right: 8px;

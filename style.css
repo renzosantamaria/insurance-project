@@ -428,12 +428,13 @@ h3{
         height: 240vh;
         padding-bottom: 30px;
          
-        padding: 5% 5%;
+        
       }
 
       .wrapper2_left{
         grid-template-columns: 1fr;
         grid-template-rows: 300px 280px;
+        padding: 5% 5%;
       }
 
       .wrapper2_left-container{

@@ -167,6 +167,7 @@ h3{
     height: 90vh;
     grid-template-rows: 1fr 1fr;
     background-color: #A9A19E;
+   
 }
 
 .wrapper2 h1{
@@ -426,6 +427,8 @@ h3{
         grid-template-columns: 1fr;
         height: 240vh;
         padding-bottom: 30px;
+         
+        padding: 5% 5%;
       }
 
       .wrapper2_left{

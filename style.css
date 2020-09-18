@@ -165,7 +165,7 @@ h3{
 
 .wrapper2{
     display: grid;
-    height: 90vh;
+    height: 95vh;
     grid-template-rows: 1fr 1fr;
     background-color: #A9A19E;
    
@@ -263,7 +263,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 110vh;
 }
 .wrapper3 h1{
     color: #FFFFFF;

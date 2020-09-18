@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EBEBEB;
+}
+p{
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 1.6;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+}
+
+h1{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 50px;
+}
+
+
+h2{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 42px;
+}
+
+h3{
+    font-family: Frank Ruhl Libre;
+}
+
+.learn,
+.join{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*------------------------ GLOBAL WRAPPER -------------------------*/
+
+.global-wrapper{
+    padding: 0 12%;
+}
+
+/*-------------------- WRAPPER 1 -----------------------------*/
+.wrapper1_right .texts{
+    text-align: center;
+}
+
+.wrapper1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 90vh;
+}
+.wrapper1 h2{
+    color: #FFFFFF;
+}
+
+
+.wrapper1_left{
+    background-color: #C7DDEA;
+    position: relative;
+    padding: 5% 20%;
+}
+
+.wrapper1_left h1{
+    padding-bottom: 8px;
+}
+
+.wrapper1_left p{
+    padding-bottom: 70px;
+    padding-right: 52px;
+    line-height: 1.8;
+    font-size: 16px;
+
+}
+.wrapper1_left .family{
+    height: 360px;
+    position: absolute;
+    bottom: 0;
+    right: 8px;
+
+}
+
+.button_join_now{
+    width: 131px;
+    height: 39px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.wrapper1_right{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.wrapper1_right .learn{
+    background-color: #F17949;
+}
+
+.wrapper1_right .join{
+    background-color: #FAB131;
+}
+
+.white_text{
+    color: white;
+}
+
+/*------------------------ MENU NAV ---------------------*/
+ 
+.menu-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+
+    width: 100%;
+    height: 10vh;
+    padding: 0 10%;
+}
+
+.menu-nav .item {
+    height: 15vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: #000000;
+    opacity: 0.4;
+}
+
+.menu-nav a {
+    text-decoration: none;
+    font-family: Fira Sans;
+    
+}
+
+.menu-nav .active {
+    height: 15vh;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    color: black;
+}
+
+/*-------------------------- WRAPPER 2 -----------------------*/
+
+.wrapper2{
+    display: grid;
+    height: 90vh;
+    grid-template-rows: 1fr 1fr;
+    background-color: #A9A19E;
+}
+
+.wrapper2 h1{
+    color: #FFFFFF;
+}
+
+.wrapper2_left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;;
+}
+
+.wrapper2_left-container{
+    padding: 13% 5% 30% 20%;
+}
+
+.wrapper2_left-container h1{
+    padding-bottom: 68px;
+}
+
+.wrapper2_right{
+    display: flex;
+    justify-content: center;
+    padding: 13% 32% 15% 14%;
+}
+
+/*----------------------------- CARDS ---------------------------*/
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4%;
+    padding: 0 10%;
+}
+
+.card{
+    background-color: white;
+    border-radius: 8px;
+}
+
+.card1{
+    background-color: #C7DDEA;
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    border-radius: 6px;
+    margin-top: -30px;
+}
+
+.card2{
+    background-color: #FAB131;
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    border-radius: 4px;
+    margin-top: -30px;
+}
+.card3{
+    background-color: #F17949;
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    border-radius: 4px;
+    margin-top: -30px;
+}
+.pics{
+    height: 160px;
+}
+
+.card-text{
+    text-align: center;
+}
+
+
+h3{
+    padding: 2%;
+    margin-bottom: 6px;
+}
+
+.cards p{
+    padding: 0 28px 46px 28px;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: bold;
+    font-size: 12px;
+        
+}
+
+/*------------------------- WRAPPER 3 --------------------------*/
+
+.wrapper3{
+    background-color: #FAB131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.wrapper3 h1{
+    color: #FFFFFF;
+}
+.wrapper3 .content{
+    display:block;
+    text-align: center;
+    font-size: 20px;
+}
+.wrapper3 .content h1{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.wrapper3 .content p{
+    width: 610px;
+
+}
+
+/*--------------------------------- WRAPPER 4 -----------------*/
+.wrapper4{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 90vh;
+    text-align: center;
+}
+
+.wrapper4-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.wrapper4 p{
+    
+    font-weight: bold;
+}
+
+.w4-text{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.w4-text p{
+    font-size: 20px;
+}
+
+.number{
+    position: absolute;
+    top: 16px;
+    left: 32px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Frank Ruhl Libre;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.wrapper4 .w4{
+    background-color: #C7DDEA;
+    
+}
+
+.wrapper4 .w4-1,
+.w4-3,
+.w4-5{
+    background-color: #FFFFFF;
+}
+
+.wrapper4 .w4-2{
+    background-color: #EBEBEB;
+}
+
+
+.wrapper4 .w4-4{
+    background-color: #F17949;
+}
+
+/*------------------------- FOOTER ------------------------*/
+.footer{
+    display: grid;
+    grid-template-rows: 10vh 45vh;
+
+}
+.button-up{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    display: grid;
+    grid-template-rows: 40% 60%;
+
+    text-align: center;
+    background-color: #A9A19E;
+    font-family: Fira Sans;
+}
+
+.arrow{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.button-up a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #1c1f20;
+}
+
+.empty{
+    background-color: #777574;
+}
+
+
+
+/* ----------------------------------------------------------------- */
+/*----------------------- RESPONSIVE DESIGN ------------------------*/
+/* -----------------------------------------------------------------*/
+
+
+
+
+ /*-------------------- WRAPPER 1 --- --------------------------*/
+@media screen and (max-width: 760px) {
+    .global-wrapper{
+        padding: 0px;
+    } 
+
+    .wrapper1{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        height: 200vh;
+    }
+
+    .wrapper1_left{
+        height: 100vh;
+    }
+
+    .wrapper1_left{
+        padding: 5% 5%;
+    }
+
+    .wrapper1_left p{
+
+        padding-right: 0px;
+        
+    }
+
+    .wrapper1_right{
+        height: 100vh;
+    }
+
+    .menu-nav{
+        display: none;
+    }
+  }
+
+  /*------------------------------- WRAPPER 2 --------------------*/
+
+  @media screen and (max-width: 760px){
+      .wrapper2{
+        display: grid;
+        grid-template-rows: 1fr 3fr;
+        grid-template-columns: 1fr;
+        height: 240vh;
+        padding-bottom: 30px;
+      }
+
+      .wrapper2_left{
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 280px;
+      }
+
+      .wrapper2_left-container{
+        padding: 10% 4% 0% 4%;
+      }
+
+      .wrapper2 .button_join_now{
+          display: none;
+      }
+
+      .wrapper2_right{
+          height: auto;
+        padding: 0% 4% 17% 4%;
+      }
+
+      .cards{
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      gap: 6%;
+      }
+      
+  }
+
+
+
+  /*--------------------------------- WRAPPER 3 --------------------------------------*/
+
+  @media screen and (max-width: 760px){
+
+    .wrapper3 .content p {
+        width: auto;
+        margin: 0px 13% 0 13%;
+    }
+  }
+    
+
+
+
+  /*----------------------- HOW IT WORKS ---------------*/
+
+  @media screen and (max-width: 760px){
+    .wrapper4{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        height: 180vh;
+    }
+
+    .footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        height: 45vh;
+    }
+
+    .button-up{
+        display: none;
+    }
+
+  }

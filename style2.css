@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E5E5;
+    
+}
+p{
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 1.6;
+    font-size: 14px;
+}
+a{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1,
+h2{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 45px;
+}
+
+/*------------------- GLOBAL WRAPPER -------------------------*/
+
+.global-wrapper{
+    padding: 0 12%;
+}
+
+
+/*--------------------- HEADER --------------------------------*/
+
+.header{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 45vh;
+    background-color: #C7DDEA;
+}
+
+.header-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-container h1{
+    margin-right: 10%;
+}
+
+.header-pic{
+    display: flex;
+    align-items: flex-end;
+}
+
+
+/*-------------------------- MENU NAV ---------------------*/
+.menu-nav {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+background-color: #FFFFFF;
+            
+width: 100%;
+height: 10vh;
+padding: 0 10%;
+            
+}
+            
+.menu-nav .item {
+height: 15vh;
+            
+display: flex;
+justify-content: center;
+align-items: center;
+            
+font-weight: bolder;
+}
+.menu-nav a {
+text-decoration: none;
+color: #bfacac;
+}
+            
+.menu-nav .active {
+color: #1c1f20;
+}
+
+/*------------------------ MAIN LEFT ---------------------------*/
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80vh;
+    background-color: #A9A19E;
+}
+
+.main-left{
+    display: flex;
+    justify-content: center;
+    padding: 25% 0 0 0;
+}
+
+.main h1{
+    color: #FFFFFF;
+}
+
+/*--------------------------- MAIN RIGHT ------------------------*/
+
+.main-right{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template-columns: 1fr;
+}
+
+.main-right label{
+    display: block;
+    color: #FFFFFF;
+    font-family: Fira Sans;
+    margin-bottom: 8px;
+
+  
+}
+
+.form-up{
+    padding-top: 143px;
+}
+
+.form-up input{
+    height: 40px;
+    width: 340px;
+    border-radius: 3px;
+    border: 0 solid white;
+    padding-left: 18px;
+    
+}
+
+.form-down{
+    padding-top: 30px;
+}
+
+.form-down textarea{
+    display: block;
+    height: 160px;
+    width: 340px;
+
+    border-radius: 3px;
+    border: 0 solid white;
+    padding: 12px 0 0 18px;
+}
+
+.form-down ::placeholder{
+    color: black;
+    font-family: Fira Sans;
+    font-weight: 600;
+}
+
+.button-send-message{
+    width: 140px;
+    height: 39px;
+
+    margin: 32px 0 0 200px;
+    font-size: 11px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+/*--------------------------- MAP -------------------------------*/
+
+.map{
+    display: flex;
+    height: 522px;
+    background-image: url("Images/map.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.map .checkpoint{
+    height: 120px;
+
+    position: absolute;
+
+    margin-left: 600px;
+    margin-top: 216px;
+    
+}
+
+.yellow{
+    background-color: #FAB131;
+
+    height: 236px;
+    width: 371px;
+    margin-left: 99px;
+    margin-top: 50px;
+    padding-left: 42px;
+    padding-top: 24px;
+    color: white;
+}
+
+.yellow h1{
+    margin-bottom: -16px;
+}
+
+
+
+/*------------------------- FOOTER ---------------------------*/
+
+.footer{
+    background-color: #777574;
+
+    display: grid;
+    grid-template-rows: 40vh;
+}
+
+
+
+
+/* ----------------------------------------------------------------- */
+/*----------------------- RESPONSIVE DESIGN ------------------------*/
+/* -----------------------------------------------------------------*/
+
+
+@media screen and (max-width: 760px)
+{
+
+
+    /*----------------------------- GOLBBAL WRAPPER --------------------*/
+    .global-wrapper{
+        padding: 0;
+    }
+    
+    
+    /*--------------------- HEADER --------------------------------*/
+    
+    .header{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 30vh 45vh;
+    }
+    
+    .header-container {
+        justify-content: center;
+    }
+
+    .header-container h1{
+        margin-right: 0;
+    }
+
+    .header-pic{
+    justify-content: center;
+    }
+        
+    
+    /*-------------------------- NAV MENU -------------------------*/
+    .menu-nav{
+        display: none;
+    }
+
+
+    /*--------------------------- MAIN -- --------------------------*/
+
+    .main{
+        grid-template-columns: 1fr;
+        grid-template-rows: 40vh 60vh;
+    }
+
+    .main h1{
+        padding: 0;
+        margin: 0 auto;
+        width: 340px;
+
+    }
+
+    .main-left{
+        padding: 22% 0 0 0;
+    }
+    
+    .main-right{
+        margin-bottom: 80px;
+    }
+
+    .form-up {
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .form-down {
+        padding: 0;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    /*--------------------------- MAP -------------------------------*/
+
+    .map{
+        display: none; 
+    }
+
+    /*------------------------- FOOTER -------------------------*/
+
+    .footer{
+        height: 30vh;
+    }
+
+
+        
+}
+

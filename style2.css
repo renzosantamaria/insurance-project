@@ -175,7 +175,7 @@ color: #1c1f20;
 .map{
     display: flex;
     height: 522px;
-    background-image: url("Images/map.png");
+    background-image: url("img/map.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;

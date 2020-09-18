@@ -226,8 +226,8 @@ color: #1c1f20;
 /*----------------------- RESPONSIVE DESIGN ------------------------*/
 /* -----------------------------------------------------------------*/
 
-
-@media screen and (max-width: 760px)
+/* @media screen and (max-width: 760px) */
+@media screen and (max-width: 900px)
 {
 
 

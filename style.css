@@ -441,18 +441,22 @@ h3{
       }
 
       .wrapper2_left-container{
-        padding: 10% 0% 0% 0%;
+        padding: 8% 0%;
         margin: 0 auto;
       }
 
+      .wrapper2_left-container h1{
+        padding-bottom: 0px;
+      }
+
       .wrapper2 .button_join_now{
-          display: none;
+        display: none;
       }
 
       .wrapper2_right{
-          height: auto;
-        /* padding: 0% 4% 17% 4%; */
-        padding: 2% 7% 17% 4%;
+        height: auto;
+       
+        padding: 5% 5% 10% 5%;
       }
 
       .cards{

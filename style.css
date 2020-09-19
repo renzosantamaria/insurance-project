@@ -394,12 +394,12 @@ h3{
     .wrapper1{
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        height: 200vh;
+        grid-template-rows: 90vh 100vh;
+        height: 190vh;
     }
 
     .wrapper1_left{
-        height: 100vh;
+        /* height: 100vh; */
     }
 
     .wrapper1_left{

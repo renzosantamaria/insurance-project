@@ -177,7 +177,8 @@ h3{
 
 .wrapper2_left{
     display: grid;
-    grid-template-columns: 1fr 1fr;;
+    grid-template-columns: 1fr 1fr;
+    
 }
 
 .wrapper2_left-container{
@@ -435,7 +436,7 @@ h3{
 
       .wrapper2_left{
         grid-template-columns: 1fr;
-        grid-template-rows: 300px 280px;
+        grid-template-rows: 300px 300px;
         padding: 5% 5%;
       }
 
@@ -451,7 +452,7 @@ h3{
       .wrapper2_right{
           height: auto;
         /* padding: 0% 4% 17% 4%; */
-        padding: 0% 7% 17% 4%;
+        padding: 2% 7% 17% 4%;
       }
 
       .cards{

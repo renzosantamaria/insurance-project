@@ -103,6 +103,7 @@ h3{
 .button_join_now a{
     text-decoration: none;
     color: #000000;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .wrapper1_right{
@@ -210,7 +211,7 @@ h3{
     border-radius: 8px;
     width: 300px;
     margin: 0 auto;
-    
+    box-shadow: 0px 5px 3px rgba(0, 0, 0, 0.1);
 }
 
 .card1{
@@ -240,6 +241,14 @@ h3{
 }
 .pics{
     height: 160px;
+}
+
+.xtra-padding{
+    padding-top: 24px;
+}
+
+.card3 img{
+    padding-right: 26px;
 }
 
 .card-text{

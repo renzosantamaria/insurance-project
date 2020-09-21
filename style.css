@@ -418,7 +418,12 @@ h3{
     }
 
     .wrapper1_left{
-        padding: 5% 5%;
+        padding: 10% 5%;
+    }
+
+    .wrapper1_left h1{
+        line-height: 1;
+        padding-bottom: 20px;
     }
 
     .wrapper1_left .family{

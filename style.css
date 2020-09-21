@@ -384,7 +384,24 @@ h3{
 /*----------------------- RESPONSIVE DESIGN ------------------------*/
 /* -----------------------------------------------------------------*/
 
-
+@media screen and (max-width: 760px){
+    p{
+        font-size: 12px;
+        
+    }
+    
+    h1{
+        font-family: 'Frank Ruhl Libre', serif;
+        font-size: 42px;
+    }
+    
+    
+    h2{
+        font-family: 'Frank Ruhl Libre', serif;
+        font-size: 38px;
+    }
+    
+}
 
 
  /*-------------------- WRAPPER 1 --- --------------------------*/

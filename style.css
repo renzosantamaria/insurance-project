@@ -5,6 +5,7 @@
 }
 body{
     background-color: #EBEBEB;
+    padding: 0 12%;
 }
 p{
     font-family: 'Fira Sans', sans-serif;
@@ -17,6 +18,7 @@ p{
 h1{
     font-family: 'Frank Ruhl Libre', serif;
     font-size: 50px;
+    line-height: 1;
 }
 
 
@@ -36,11 +38,6 @@ h3{
     justify-content: center;
 }
 
-/*------------------------ GLOBAL WRAPPER -------------------------*/
-
-.global-wrapper{
-    padding: 0 12%;
-}
 
 /*-------------------- WRAPPER 1 -----------------------------*/
 .wrapper1_right .texts{
@@ -203,6 +200,7 @@ h3{
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0 4%;
     
+    /* Vi ger 2 olika färger till containern som innehåller våra "cards" med gradien */
     background: linear-gradient(to top, #FAB131 0%, #FAB131 50%, #A9A19E 50%, #A9A19E 100%);
 }
 
@@ -359,10 +357,8 @@ h3{
     grid-template-rows: 10vh 45vh;
 
 }
+
 .button-up{
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     display: grid;
     grid-template-rows: 40% 60%;
 
@@ -394,6 +390,12 @@ h3{
 /* -----------------------------------------------------------------*/
 
 @media screen and (max-width: 760px){
+    body{
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 760px){
     p{
         font-size: 12px;
         
@@ -415,10 +417,7 @@ h3{
 
  /*-------------------- WRAPPER 1 --- --------------------------*/
 @media screen and (max-width: 760px) {
-    .global-wrapper{
-        padding: 0px;
-    } 
-
+   
     .wrapper1{
         display: grid;
         grid-template-columns: 1fr;

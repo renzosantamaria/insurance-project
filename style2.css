@@ -5,6 +5,7 @@
 }
 body{
     background-color: #E5E5E5;
+    padding: 0 12%;
     
 }
 p{
@@ -20,12 +21,6 @@ h1,
 h2{
     font-family: 'Frank Ruhl Libre', serif;
     font-size: 45px;
-}
-
-/*------------------- GLOBAL WRAPPER -------------------------*/
-
-.global-wrapper{
-    padding: 0 12%;
 }
 
 
@@ -231,8 +226,8 @@ color: #1c1f20;
 {
 
 
-    /*----------------------------- GOLBBAL WRAPPER --------------------*/
-    .global-wrapper{
+    /*----------------------------- BODY --------------------*/
+    body{
         padding: 0;
     }
     

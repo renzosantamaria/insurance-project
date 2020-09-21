@@ -461,6 +461,7 @@ h3{
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr 1fr;
       gap: 6%;
+      background: #A9A19E;
       
       }
       
